@@ -13,6 +13,7 @@ for (list of lists) {
 
         right.addEventListener('drop', function(e) {
             right.appendChild(selected);
+            selected.style.background = 'green';
             selected = null;
         })
 
@@ -22,6 +23,7 @@ for (list of lists) {
 
         left.addEventListener('drop', function(e) {
             left.appendChild(selected);
+            selected.style.background = '#77180e';
             selected = null;
         })
     })
