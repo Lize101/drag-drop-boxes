@@ -24,11 +24,11 @@ body {
 
 .list {
     background-color: #77180e;
+    color: #fff;
     height: 60px;
     margin: 30px;
+    padding-left: 20px;
     display: flex;
     align-items: center;
-    color: #fff;
-    padding-left: 20px;
     border-radius: 5px;
 }
