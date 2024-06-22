@@ -37,3 +37,7 @@ body {
     align-items: center;
     border-radius: 5px;
 }
+
+#tick {
+    color: green;
+}

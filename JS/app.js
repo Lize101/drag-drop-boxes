@@ -6,6 +6,7 @@ const lists = document.getElementsByClassName('list');
 for (list of lists) {
     list.addEventListener('dragstart', function(e) {
         let selected = e.target;
+        console.log(e);
 
         right.addEventListener('dragover', function(e) {
             e.preventDefault();
